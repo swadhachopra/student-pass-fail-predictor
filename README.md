@@ -13,30 +13,7 @@ Daily Study Hours (0 - 24 hours)
 Attendance Percentage (0% - 100%)
 Previous Test Score (0% - 100%)
 Assignments Completed (0 - 20 assignments)
-🚀 Installation & Setup
-1. Clone Repository
-git clone https://github.com/ashmit044/student-pass-fail-predictor.git
-cd student-pass-fail-predictor
-2. Create Virtual Environment & Install Dependencies
-python -m venv venv
-# On Windows:
-venv\Scripts\activate
-# On Linux/macOS:
-source venv/bin/activate
 
-pip install -r requirements.txt
-🏃 How to Run
-1. Launch Streamlit Web UI
-streamlit run app.py
-2. Run CLI Mode
-Interactive terminal prompt:
-
-python app.py
-Command-line parameters mode:
-
-python app.py --study-hours 7 --attendance 80 --previous-score 72 --assignments-completed 9
-3. Run Unit Tests
-pytest
 🛠️ Project Structure
 student-pass-fail-predictor/
 ├── data/
